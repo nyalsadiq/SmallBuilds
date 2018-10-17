@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>index.html</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="card">
+            <div>
+                <p class="black" id="title">Number of drinks:</p>
+                <p class="black" id="counter">0</p>
+            </div>
+
+            <div class="bold body">
+                <div onclick="clickHandler('Spirit')" class="flex-item button card">
+                    <p id="test" class="flex-item">Spirit</p>
+                </div>
+                <div onclick="clickHandler('Beer/Wine')"class="flex-item button card">
+                    <p id="test" class="flex-item">Beer/Wine</p>
+                </div>
+            </div>
+            <p class="medium">BAC:</p>
+            <p class="medium" id="BAC">0.00</p>
+            <p class="light" id="warning">Have a safe night!</p>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

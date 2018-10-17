@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 1px 1px #545454;
+}
+
+.button {
+    background-color: rgb(50, 128, 61);
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: auto;
+    width: 30%;
+}
+
+.black {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px auto;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.medium {
+    font-size: 28px;
+    font-weight: 500; 
+    margin: 10px auto;
+}
+
+.regular {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+.light {
+    font-size: 24px;
+    font-weight: 300px;    
+    margin: 10px auto;
+}

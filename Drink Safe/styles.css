@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+.body {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.button {
+    background-color: rgb(209, 72, 18);
+    color: white;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px #545454;
+    text-align: center;
+}
+
+.black {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px auto;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.medium {
+    font-size: 28px;
+    font-weight: 500; 
+    margin: 10px auto;
+}
+
+.regular {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+.light {
+    font-size: 24px;
+    font-weight: 300px;    
+    margin: 10px auto;
+}

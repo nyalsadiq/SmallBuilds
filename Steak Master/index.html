@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Steak!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <audio id="rare"><source src="rare.mp3" type="audio/mpeg"></audio>
+        <audio id="medium-rare"><source src="medium-rare.mp3" type="audio/mpeg"></audio>
+        <audio id="medium"><source src="medium.mp3" type="audio/mpeg"></audio>
+        <audio id="well-done"><source src="well-done.mp3" type="audio/mpeg"></audio>
+        <audio id="burnt"><source src="burnt.mp3" type="audio/mpeg"></audio>
+    </head>
+    
+    <body>
+        <div class="card">
+            <p class="black">Steak Master</p>
+            <p class="bold" id="desc">Raw</p>
+            <p class="bold" id="timer">0</p>
+
+            <div class="button" onclick="window.setInterval(set_time, 1000)">
+                <p class="medium">Start timer</p>
+            </div>
+            <p style="text-align: left">Text to Speech?</p>
+            <input style="text-align: center" id="tts" type="checkbox" name="tts" value="tts">
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
